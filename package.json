@@ -1,0 +1,28 @@
+{
+  "name": "compare-scss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c --environment ROLLUP_TASK:full && node compareStyles.js",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valsaven/userstyles.git"
+  },
+  "author": "Val Saven <val.saven@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "10.4.19",
+    "colors": "^1.4.0",
+    "diff": "^5.2.0",
+    "nodemon": "^3.1.0",
+    "rimraf": "5.0.5",
+    "rollup": "4.16.1",
+    "rollup-plugin-postcss": "4.0.2",
+    "sass": "1.75.0"
+  }
+}
