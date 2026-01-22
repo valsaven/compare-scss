@@ -1,6 +1,6 @@
 {
   "name": "compare-scss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "private": "true",
@@ -16,13 +16,13 @@
   "author": "Val Saven <val.saven@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "10.4.22",
+    "autoprefixer": "10.4.23",
     "colors": "^1.4.0",
-    "diff": "^8.0.2",
+    "diff": "^8.0.3",
     "nodemon": "3.1.11",
     "rimraf": "6.1.2",
-    "rollup": "4.53.3",
+    "rollup": "4.56.0",
     "rollup-plugin-postcss": "4.0.2",
-    "sass": "1.94.2"
+    "sass": "1.97.3"
   }
 }
