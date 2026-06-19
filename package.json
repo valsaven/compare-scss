@@ -1,6 +1,6 @@
 {
   "name": "compare-scss",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "index.js",
   "private": "true",
@@ -23,6 +23,6 @@
     "rimraf": "6.1.3",
     "rollup": "4.61.1",
     "rollup-plugin-postcss": "4.0.2",
-    "sass": "1.100.0"
+    "sass": "1.101.0"
   }
 }
